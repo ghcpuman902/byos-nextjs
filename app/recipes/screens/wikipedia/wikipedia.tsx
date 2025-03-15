@@ -105,7 +105,7 @@ export default function Wikipedia({
 								)}
 							</div>
 							<div className="flex-none p-4">
-								<div className="text-2xl text-black flex justify-between w-full p-2 rounded-xl dither-100">
+								<div className="text-2xl text-black flex justify-between w-full p-2 rounded-xl dither-100" style={{ WebkitTextStroke: "4px white" }}>
 									<span>Wikipedia • Random Article</span>
 									{formattedDate && <span>Generated: {formattedDate}</span>}
 								</div>

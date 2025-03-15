@@ -79,7 +79,7 @@ export default function BitcoinPrice({
 										</div>
 									))}
 								</div>
-								<div className="w-full flex justify-end text-2xl p-2 rounded-xl dither-100">
+								<div className="w-full flex justify-end text-2xl p-2 rounded-xl dither-100" style={{ WebkitTextStroke: "4px white" }}>
 									{lastUpdated && <span>Last updated: {lastUpdated}</span>}
 								</div>
 							</div>
