@@ -1,9 +1,10 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
+    "_comment": "Hobby plan compatible: runs once per day at midnight UTC. Pro plan users can change schedule to '*/5 * * * *' for every 5 minutes.",
     "crons": [
       {
         "path": "/api/bitmap/wikipedia.bmp",
-        "schedule": "*/5 * * * *"
+        "schedule": "0 0 * * *"
       }
     ]
   }
